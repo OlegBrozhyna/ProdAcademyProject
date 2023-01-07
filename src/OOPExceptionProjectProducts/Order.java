@@ -59,18 +59,14 @@ public class Order {
         }
 
     @Override
-    public String toString() {
-        String result = "Order" + System.lineSeparator();
-        for (int i = 0; i < products.length; i++) {
-            if (products[i] !=null){
-                result +=products[i] + System.lineSeparator();
-
-            }
-
-        }
-        return "result {" +
-                "total sum ="  + calculateTotalSum() + //+ Arrays.toString(products)
-                '}';
+   public String toString() {
+		String result = "Order" + System.lineSeparator();
+		for (int i = 0; i < products.length; i++) {
+			if (products[i] != null) {
+				result += products[i] + System.lineSeparator();
+			}
+		}
+		return result + " total sum = " + calculateTotalSum();
     }
 }
 
