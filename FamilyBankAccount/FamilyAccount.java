@@ -26,7 +26,7 @@ public class FamilyAccount implements Runnable {
 
     }
 
-    private void makePay(int amout) {
+    private synchronized void makePay(int amout) {
         if (bankAccount.getBalance() >= amout) {
             System.out.println(Thread.currentThread().getName() + " the phone rang ");
             try {
