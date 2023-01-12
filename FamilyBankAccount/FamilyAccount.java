@@ -17,8 +17,8 @@ public class FamilyAccount implements Runnable {
 
     @Override
     public void run() {
-        for (int i = 0; i < 10; i++) {
-            makePay(10);
+        for (int i = 0; i < 2; i++) {
+            makePay(50);
             if (bankAccount.getBalance() < 0) {
                 System.out.println(" Owerdrow ");
             }
