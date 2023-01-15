@@ -52,6 +52,7 @@ public class FermProgram implements Runnable {
         wolf.makeNoise();
 
         System.out.println();
+        
         System.out.println(Thread.currentThread().getName() + " Cat " + cats);
         System.out.println(Thread.currentThread().getName() + " Dog " + dogs);
         System.out.println(Thread.currentThread().getName() + "Panther" + panters);
@@ -60,6 +61,7 @@ public class FermProgram implements Runnable {
 
 
         System.out.println();
+        
         System.out.println("Cat " + cat);
         System.out.println("Dog " + dog);
         System.out.println("Panter " + panter);
