@@ -13,8 +13,8 @@ public class TestDriveBook  {
         TreeSet<Book> three = new TreeSet<Book>(bookCompare);
 
         three.add(new Book("How Cat work"));
-        three.add(new Book("Java in the moon"));
-        three.add(new Book("Java in the moon"));
+        three.add(new Book("Java in the best"));
+        three.add(new Book(""Man in the moon"));
         System.out.println(three);
         System.out.println(book1);
 
