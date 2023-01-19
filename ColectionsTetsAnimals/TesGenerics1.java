@@ -32,9 +32,9 @@ public class TesGenerics1 {
         //  Cat[]cats = new Cat[]{new Cat(),new Cat(),new Cat()};
         // public void takeAnimls(Animal[]animals){
         //        for (Animal a: animals) {
-        //            a.eat();
-        //            System.out.println(a);
-        //            System.out.println(animals);
+        //           a.eat();
+        //           System.out.println(a);
+        //           System.out.println(animals);
 
     }
 
