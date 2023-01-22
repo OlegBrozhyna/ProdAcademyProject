@@ -19,6 +19,7 @@ public class LinkedListTest implements Cloneable {
         SortName sortName = new SortName();
         Collections.sort(mountains,sortName);
         System.out.println("Sort Mountain name " + mountains);
+        System.out.println();
         SortHeight sortHeight = new SortHeight();
         Collections.sort(mountains,sortHeight);
         System.out.println("Sort Mountain height " + sortHeight);
