@@ -9,7 +9,7 @@ public class Book implements Comparable{
 
     @Override
     public int compareTo(Object b) {
-         Book book = (Book) b;
+         Book book = Book((String) b);
 
         return (title.compareTo((book.title)));
     }
