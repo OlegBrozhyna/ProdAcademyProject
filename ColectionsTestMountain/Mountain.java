@@ -13,4 +13,12 @@ public class Mountain {
     public String toString() {
         return nane + " " + height;
     }
+    
+    @Override
+    public String toString() {
+        return "Mountain{" +
+                "nane='" + nane + '\'' +
+                ", height=" + height +
+                '}';
+}
 }
