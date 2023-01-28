@@ -13,5 +13,11 @@ public class Book implements Comparable{
 
         return (title.compareTo((book.title)));
     }
+     @Override
+    public String toString() {
+        return "Book{" +
+                "title = '" + title + '\'' +
+                '}';
+    }
 }
 
