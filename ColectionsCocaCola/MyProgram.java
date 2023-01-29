@@ -4,6 +4,7 @@ public class MyProgram {
     public static void main(String[] args) {
 
         CocaColaMashine cocaColaMashine = new CocaColaMashine(20);
+        
         Poeople poeople = new Poeople("Leonard");
         poeople.clone();
         System.out.println(poeople);
