@@ -1,6 +1,7 @@
 package ColectionsFrameworkStack;
 
 public class SimpleStac {
+    
     private int maxSize;
     private long[] stackArray;
     private int top;
