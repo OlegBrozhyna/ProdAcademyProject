@@ -20,6 +20,17 @@ public class MyProgram {
         cocaColaMashine.addPeopleToQueue(new Poeople("Penny"));
         
         System.out.println(clonedPeople.clone());
+        
+        
+        clonedPeople.clone();
+        clonedPeople.name = "Sheldon";
+        System.out.println(clonedPeople);
+        clonedPeople.name = "Kutrapalli";
+        System.out.println(clonedPeople);
+        clonedPeople.name = "Volovitc";
+        System.out.println(clonedPeople);
+        clonedPeople.name = "Penny";
+        System.out.println(clonedPeople);
 
 
         cocaColaMashine.giveDoubleCocaColaFirstPeopleInQueue();
