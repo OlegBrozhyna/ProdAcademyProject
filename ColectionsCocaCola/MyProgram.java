@@ -5,9 +5,10 @@ public class MyProgram {
 
         CocaColaMashine cocaColaMashine = new CocaColaMashine(20);
         
+        
         Poeople poeople = new Poeople("Leonard");
-        poeople.clone();
-        System.out.println(poeople);
+        Poeople clonedPeople = poeople.clone();
+        
 
         for (int i = 0; i < 20; i++) {
             cocaColaMashine.putCocaCola(new DoubleCocaCola());
@@ -17,6 +18,8 @@ public class MyProgram {
         cocaColaMashine.addPeopleToQueue(new Poeople("Volovitc"));
         cocaColaMashine.addPeopleToQueue(new Poeople("Kutrapalli"));
         cocaColaMashine.addPeopleToQueue(new Poeople("Penny"));
+        
+        System.out.println(clonedPeople.clone());
 
 
         cocaColaMashine.giveDoubleCocaColaFirstPeopleInQueue();
