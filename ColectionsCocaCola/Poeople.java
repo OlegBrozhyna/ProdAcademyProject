@@ -1,7 +1,8 @@
 package ColectionsCocaCola;
 
 public class Poeople implements Cloneable {
-    private String name;
+    
+    public String name;
 
     public Poeople(String name) {
         this.name = name;
